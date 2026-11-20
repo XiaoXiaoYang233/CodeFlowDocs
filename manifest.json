@@ -26,7 +26,8 @@
     {
       "title": "账户与支持",
       "items": [
-        { "slug": "console", "title": "控制台与支持" }
+        { "slug": "console", "title": "控制台与支持" },
+        { "slug": "account-key", "title": "账户密钥" }
       ]
     }
   ]
