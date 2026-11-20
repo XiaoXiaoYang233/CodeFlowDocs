@@ -13,7 +13,7 @@ Pi Coding Agent 是一款在终端中运行的轻量代理，可以读取和修�
 ## 准备工作
 
 - 已注册 {{SITE_NAME}} 账号并有可用额度，参见[快速开始](/guides/quick-start.md)
-- 已创建 Claude 系列分组的令牌，参见[接入凭证与分组](/guides/access.md)
+- 已创建 Claude 系列分组的令牌；示例中的 `claude-fable-5-1` 只在 Claude 官方分组上架，使用 Claude 低价或高智分组时，换成该分组可调用的模型 ID，参见[接入凭证与分组](/guides/access.md)
 - 本页使用的接入地址为 `{{SITE_URL}}`，不带 `/v1`
 
 ## 安装 Pi Coding Agent

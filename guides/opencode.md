@@ -13,7 +13,7 @@ OpenCode 是一款在终端中运行的编码代理，适合在命令行中完�
 ## 准备工作
 
 - 已注册 {{SITE_NAME}} 账号并有可用额度，参见[快速开始](/guides/quick-start.md)
-- 已创建分组与所用模型匹配的令牌；本页示例使用 Claude 模型，令牌需选择 Claude 系列分组，参见[接入凭证与分组](/guides/access.md)
+- 已创建分组与所用模型匹配的令牌；本页示例使用 Claude 模型，令牌需选择 Claude 系列分组；示例中的 `claude-fable-5-1` 只在 Claude 官方分组上架，使用 Claude 低价或高智分组时，换成该分组可调用的模型 ID，参见[接入凭证与分组](/guides/access.md)
 - 本页使用的接入地址为 `{{SITE_URL}}/v1`，带 `/v1`
 
 ## 安装 OpenCode
