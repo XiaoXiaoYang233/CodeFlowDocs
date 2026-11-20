@@ -4,7 +4,7 @@ Kilo Code 是 VS Code 扩展形态的编码代理，适合在编辑器内直接�
 
 > **配置说明**
 >
-> 客户端界面与配置字段可能随版本更新变化，模型 ID 与可用分组以 {{SITE_NAME}} 控制台实时显示为准。本页依据 2026 年 9 月 6 日核验的信息整理
+> 客户端界面与配置字段可能随版本更新变化，模型 ID 与可用分组以 {{SITE_NAME}} 控制台实时显示为准。本页依据 2026 年 11 月 20 日核验的信息整理，核验版本为 Kilo Code v7.8.27
 
 ## 准备工作
 
@@ -18,7 +18,7 @@ Kilo Code 是 VS Code 扩展形态的编码代理，适合在编辑器内直接�
 
 ## 打开配置入口
 
-进入 Kilo Code 扩展，点击界面右上角的设置按钮
+进入 Kilo Code 扩展，点击面板标题栏右侧的设置按钮（齿轮图标）
 
 ![Kilo Code 首页](/assets/images/kilo-code/home.webp)
 
@@ -26,7 +26,7 @@ Kilo Code 是 VS Code 扩展形态的编码代理，适合在编辑器内直接�
 
 ![提供商选项卡](/assets/images/kilo-code/providers-tab.webp)
 
-在 **提供商** 选项卡中找到 **自定义服务商**，点击右侧的 **连接** 按钮
+在 **提供商** 选项卡中找到 **自定义提供商**，点击右侧的 **+ 连接**
 
 ![添加自定义提供商](/assets/images/kilo-code/custom-provider.webp)
 
@@ -43,7 +43,7 @@ Kilo Code 是 VS Code 扩展形态的编码代理，适合在编辑器内直接�
 
 ![填写基础 URL 与密钥](/assets/images/kilo-code/endpoint-and-key.webp)
 
-在 **基础 URL** 中填写接入地址，在 **API 密钥** 中填写令牌。Kilo Code 会自动获取当前分组可用的模型列表，选择需要使用的模型并添加
+在 **基础 URL** 中填写接入地址，在 **API 密钥** 中填写令牌，然后点击 **模型** 右侧的 **获取模型**。Kilo Code 会列出当前分组可用的模型，勾选需要使用的模型后点击 **添加 N 个模型**（N 为勾选的模型数）
 
 ![添加模型](/assets/images/kilo-code/add-model.webp)
 
@@ -52,6 +52,8 @@ Kilo Code 是 VS Code 扩展形态的编码代理，适合在编辑器内直接�
 确认供应商与模型信息无误后，点击 **提交**
 
 ![提交](/assets/images/kilo-code/submit.webp)
+
+提交后，右下角提示「{{SITE_NAME}} 已连接」，表示提供商已保存
 
 ![提交配置](/assets/images/kilo-code/submit-config.webp)
 
