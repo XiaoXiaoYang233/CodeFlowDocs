@@ -18,13 +18,15 @@ CC Switch 是第三方图形化供应商配置管理工具，可在多个供应�
 
 ![CC Switch Release 页面](/assets/images/cc-switch/release-page.webp)
 
-上图为 v4.0.36 Assets 列表的局部，安装包文件名中的版本号随发布更新
+上图为 v4.0.36 完整的 Assets 列表，安装包文件名中的版本号随发布更新
 
 ## 添加供应商
 
 打开已安装的 CC Switch，在左侧客户端列表中选择要配置的客户端，例如 **Claude Code**
 
 ![CC Switch 初始界面](/assets/images/cc-switch/initial-screen.webp)
+
+上图为首次打开时的界面，供应商列表中只有默认的 **Claude Official**
 
 点击右上角的 **+ 添加供应商**，在打开的页面顶部选择 **自定义配置**
 
